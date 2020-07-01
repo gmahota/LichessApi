@@ -1,0 +1,32 @@
+{
+  "name": "lichess-api",
+  "version": "1.0.0",
+  "description": "Api Lichess",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-lichess": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run test",
+    "start": "node server.js",
+    "serve": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmahota/LichessApi.git"
+  },
+  "author": "Guimarães Mahota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmahota/LichessApi/issues"
+  },
+  "homepage": "https://github.com/gmahota/LichessApi#readme",
+  "keywords": [
+    "express",
+    "server"
+  ]
+}
